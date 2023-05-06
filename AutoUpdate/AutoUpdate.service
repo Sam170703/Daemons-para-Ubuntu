@@ -1,0 +1,8 @@
+[Unit]
+Description=Servicio de auto-actualización
+After=gdm.service
+[Service]
+User=root
+ExecStart=/home/sam170703dev/Documentos/Servicios/AutoUpdate/AutoUpdate.sh
+[Install]
+WantedBy=multi-user.target
